@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./assets/logo1.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-6">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 More
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#my-projects">My Projects</a></li>
+                    <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+                  <li><a class="dropdown-item" href="#contact-me">Contact Me</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#end">End</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 fs-6" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light fs-6" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <section id="hero" class="gradient-background">
+        <div class="container col-xxl-8 px-0 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5 mx-3">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./assets/ciuankoaboh7sh945dmtni0fe2-b5d192f5bf69826dcfe22cad3eb9b0f0.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="intro">Hi, I'm <span class="name">Ronak</span> From New Delhi. </h1>                
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section id="about-me">
+        <div class="container mt-5">
+            <h1 class="head"> About Me. </h1>
+            <img src="./assets/profile.jpg" alt="ronak image">
+            <p class="hello"> Hello. </p>
+            <p>
+              My name is Ronak Dutta. I'm a Web Developer currently contributing in bettering the world, I ❤️ coffee and brew my own beers. 
+            </p>
+            <p>
+              Currently pursuing a degree.
+            </p>
+        </div>
+      </section>
+      <section id="my-projects">
+        <div class="container">
+          <h1 class="head" style="padding-top: 50px;"> My Projects. </h1>
+          <div class="cards-container">
+            <div class="card text-bg-dark" style="width: 18rem;">
+              <img src="./assets/Capture2.PNG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title mb-3 fs-3">Mondreal Painting</h5>
+                <p class="card-text">A painting made using just CSS.</p>
+                <a href="https://ronakdutta.github.io/Mondreal-Painting/" class="btn btn-primary">Click to view</a>
+              </div>
+            </div>
+            <div class="card text-bg-dark" style="width: 18rem;">
+              <img src="./assets/Capture.PNG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title mb-3 fs-3">TinDog</h5>
+                <p class="card-text">This is template for an online dating app for Dogs.</p>
+
+                <a href="https://ronakdutta.github.io/TinDog/" class="btn btn-primary">Click to view</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <div class="container">
+          <h1 class="head test">
+            Testimonials.
+          </h1>
+          <div class="container">
+            <div class="p-5 text-center bg-body-tertiary rounded-3">
+              <h2 class="text-body-emphasis mb-5">"A very responsible and sensible individual, would love to work with him again."</h2>
+              <img src="./assets/testimonials-5.jpg" class="image-header mb-2">
+              <p class="lead">
+                John, London
+              </p> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact-me">
+        <div class="container">
+          <h1 class="head"> Contact Me. </h1>
+          <p><img src="./assets/mail_24dp_FFF_FILL0_wght400_GRAD0_opsz24.png"> ronakdutta100@gmail.com</p>
+          <p><img src="./assets/call_24dp_FFF_FILL0_wght400_GRAD0_opsz24.png"> +91 1234567890</p>
+          <p><img src="./assets/home_24dp_FFF_FILL0_wght400_GRAD0_opsz24.png"> Street - 11, New Delhi</p>
+        </div>
+      </section>
+
+      <section id="end" class="gradient-background">
+        <div class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <img src="./assets/logo1.png">
+              <p> © 2024 Ronak, Inc</p>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li><a href="https://www.instagram.com/ackmacbk"><img src="./assets/instagram.png"></a></li>
+              <li><a href="https://www.linkedin.com/in/ronak-dutta/"><img src="./assets/linkedin.png"></a></li>
+              <li><a href="https://github.com/RonakDutta"><img src="./assets/github-sign.png"></a></li>
+            </ul>
+          </footer>
+        </div>
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
