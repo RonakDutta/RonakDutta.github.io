@@ -136,6 +136,17 @@ p {
 
 }
 
+#contact-me > div > button {
+  margin-top: 20px;
+  background-color: rgb(116, 7, 206);
+  height: 50px;
+  font-size: 20px;
+}
+
+#contact-me > div > button > a {
+  text-decoration: none;
+  color: white;
+}
 p > img {
   height: 25px;
 }
@@ -158,9 +169,15 @@ li > a > img {
 
 @media(max-width: 680px) {
   .cards-container {
-    display: block;
     width: 100%;
+    display: block;
   }
+  .card {
+    border-radius: 25px;
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+
 }
 
 
