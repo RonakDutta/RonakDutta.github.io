@@ -1,5 +1,5 @@
 .gradient-background {
-    background: linear-gradient(300deg, #fff, #4A249D, #131842);
+    background: linear-gradient(300deg, #000, #52077e, #131842);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
 } 
@@ -76,18 +76,14 @@ p {
 
 .cards-container {
   display: flex;
-  width: 60%;
-  justify-content: space-between;
-  margin-top: 70px;
-  margin-bottom: 40px;
-  border-radius: 25px;
-  padding-bottom: 20px;
-
+  justify-content: flex-start;
+  
 }
 
 .card {
   width: 300px;
-  margin-bottom: 20px;
+  margin: 10px;
+  margin-bottom: 30px;
   border-radius: 25px;
   
   
@@ -171,8 +167,9 @@ li > a > img {
 
 @media(max-width: 680px) {
   .cards-container {
+    display: inline-block;
+    margin-bottom: 20px;
     width: 100%;
-    display: block;
   }
 
 }
