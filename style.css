@@ -271,7 +271,7 @@ svg {
 
 @media(max-width: 680px) {
   
-  .container {
+  .cards-container {
     text-align: center;
     display: inline-block;
     margin-bottom: 20px;
