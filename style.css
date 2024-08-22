@@ -16,6 +16,17 @@
     }
   }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0px);
+  }
+}  
+
 html {
   margin: 0;
   padding: 0;
@@ -223,7 +234,7 @@ li > a > img:hover{
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   justify-content: flex-start;
   align-items: flex-start;
-  transition: 0.5s;
+  animation: fadeIn ease 0.3s;
 }
 
 .res-nav > nav > div > a {
@@ -257,8 +268,10 @@ svg {
 }
 
 
+
 @media(max-width: 680px) {
-  .cards-container {
+  
+  .container {
     text-align: center;
     display: inline-block;
     margin-bottom: 20px;
@@ -277,8 +290,9 @@ svg {
     display: contents;
   }
 
-
 }
+
+
 
 
 
