@@ -19,7 +19,7 @@
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateX(20px);
+    transform: translateX(80px);
   }
   100% {
       opacity: 1;
@@ -62,7 +62,7 @@ nav {
 
 .nav-text:hover {
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 h1 {
@@ -260,7 +260,7 @@ button {
 
 .res-nav-text:hover {
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 svg {
